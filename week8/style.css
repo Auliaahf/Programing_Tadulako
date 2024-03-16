@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "quicksand" , Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+.container-header {
+    padding: 20px;
+    background-color: #436850;
+    box-shadow:#053419 0px 3px 8px;
+}
+    
+
+.navigasi-list ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.container-ul a {
+    text-decoration: none;
+    color: #053419;
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container-ul a:hover {
+    background-color: #78A083 ;
+    color: whitesmoke;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:5rem;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ctn-deskripsi {
+    max-width: 600px;
+    font-size: 18px
+    ;
+    line-height: 30px;
+}
+
+.ctn-deskripsi h1 {
+    font-weight: lighter;
+
+}
+
+.paragraf {
+    text-align: justify;
+}
+
+.container-gambar img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid #78A083; 
+    border-radius: 50%
+}
+
+.ctn-deskripsi a {
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid #436850;
+    text-decoration: none;
+    color: #053419;
+    background-color:#65876f;;
+}
+
+.button-style {
+    margin-top: 30px;
+}
+
+.button-style :hover {
+    background-color: #78A083;
+    color: #053419;
+}
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+}
+
+main aside .social-media {
+    height: 100%;
+    display: flex;
+}
+
+main aside .social-media ul {
+    padding: 1.5rem 1rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: auto;
+    background-color: #255a3d;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+main aside .social-media li {
+    list-style-type: none;
+}
+
+main aside .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+
+    transition: all 0.1s ease-in-out;
+}
+
+main aside .social-media li a:hover {
+    color: #89b0d9;
+}
